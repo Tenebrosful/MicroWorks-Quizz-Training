@@ -91,3 +91,12 @@ body {
     display: block;
   }
 }
+
+.goodAnwser {
+  background-color: black;
+  color: black;
+}
+
+.goodAnwser:hover {
+  color: white;
+}

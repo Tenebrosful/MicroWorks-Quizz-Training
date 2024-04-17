@@ -51,10 +51,15 @@ function displayQuestions() {
     question.className = "cell"
     row.appendChild(question)
 
-    const responces = document.createElement("details");
-    responces.innerHTML = `<summary>${shuffle([q.correct_answer, ...q.incorrect_answers]).join("<br>")}</summary>Bonne réponse: ${q.correct_answer}`
+    const responces = document.createElement("p");
+    responces.innerHTML = `${shuffle([q.correct_answer, ...q.incorrect_answers]).join("<br>")}`
     responces.className = "cell"
     row.appendChild(responces);
+
+    const goodAnswser = document.createElement("p");
+    goodAnswser.innerHTML = `${q.correct_answer}`;
+    goodAnswser.className = "cell goodAnwser";
+    row.appendChild(goodAnswser)
 
     // const correct_answer = document.createElement(`td`)
     // correct_answer.innerHTML = q.correct_answer;
@@ -70,7 +75,9 @@ function displayQuestions() {
 
 getQ?.addEventListener("click", async () => {
   try {
-    currentQuestions = await (await (getQuestions(10))).json();
+    console.log(document.getElementById("nbrQuestion")?.getAttribute("value"));
+    // @ts-ignore
+    currentQuestions = await (await (getQuestions(document.getElementById("nbrQuestion")?.value))).json();
     displayQuestions();
   } catch (e) {
     let n = document.createElement("p")

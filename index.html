@@ -7,13 +7,16 @@
 </head>
 
 <body>
-  <button id="getQ">Requête</button>
+  <button id="getQ">Requête</button><br>
+  <label style="color: white;" for="nbrQuestion">Nombre de question </label><input id="nbrQuestion" type="number"
+    value="10" min="1" max="50" step="1" placeholder="Nombre de question" />
   <table class="table" id="questionsTable">
     <thead class="header">
       <th class="cell">Difficulté</th>
       <th class="cell">Catégorie</th>
       <th class="cell">Question</th>
       <th class="cell">Réponses</th>
+      <th class="cell">Bonne réponse</th>
     </thead>
     <tbody>
 

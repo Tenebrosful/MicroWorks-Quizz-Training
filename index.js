@@ -38,13 +38,9 @@ function displayQuestions() {
 
     const difficulty = document.createElement(`td`)
     difficulty.innerHTML = q.difficulty;
+    difficulty.innerHTML = difficulty.innerHTML.charAt(0).toUpperCase() + difficulty.innerHTML.slice(1);
     difficulty.className = "cell"
     row.appendChild(difficulty)
-
-    const category = document.createElement(`td`)
-    category.innerHTML = q.category;
-    category.className = "cell"
-    row.appendChild(category)
 
     const question = document.createElement(`td`)
     question.innerHTML = q.question;

@@ -1,0 +1,123 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The main playable character of the 2015 RPG &quot;Undertale&quot; is a monster.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What&#039;s the second book in George R. R. Martin&#039;s &#039;A Song of Ice and Fire&#039; series?",
+      "correct_answer": "A Clash of Kings",
+      "incorrect_answers": [
+        "A Dance with Dragons",
+        "A Storm of Swords",
+        "A Feast for Crows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of your team in Star Wars: Republic Commando?",
+      "correct_answer": "Delta Squad",
+      "incorrect_answers": [
+        "The Commandos",
+        "Bravo Six",
+        "Vader&#039;s Fist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Nintendo Entertainment System support natively?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "4",
+        "6",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the main character of the anime &quot;One-Punch Man&quot;?",
+      "correct_answer": "Saitama",
+      "incorrect_answers": [
+        "Genos",
+        "Sonic",
+        "King"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Sonic the Hedgehog 2&quot; for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
+      "correct_answer": "The Lead Programmer&#039;s birthday",
+      "incorrect_answers": [
+        "The first release date of &quot;Sonic the Hedgehog&quot;",
+        "The date Sonic Team was founded",
+        "The first release date of &quot;Sonic the Hedgehog 2&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the tallest mountain in Canada?",
+      "correct_answer": "Mount Logan",
+      "incorrect_answers": [
+        "Mont Tremblant",
+        "Whistler Mountain",
+        "Blue Mountain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Pamina and Papageno are characters in what Mozart opera?",
+      "correct_answer": "The Magic Flute",
+      "incorrect_answers": [
+        "The Marriage of Figaro",
+        "The Impresario",
+        "The Goose of Cairo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
+      "correct_answer": "Live and Learn",
+      "incorrect_answers": [
+        "Open Your Heart",
+        "Can You Feel the Sunshine?",
+        "His World"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was Nintendo&#039;s Virtual Boy released?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1989",
+        "1997",
+        "1992"
+      ]
+    }
+  ]
+}

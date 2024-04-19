@@ -100,3 +100,18 @@ body {
 .goodAnwser:hover {
   color: white;
 }
+
+header {
+  text-align: center;
+  color: white;
+  background-color: #ea6153;
+}
+
+a {
+  color: whitesmoke;
+}
+
+#getQ {
+  width: 100%;
+  justify-content: center;
+}
